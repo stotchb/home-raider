@@ -9,6 +9,13 @@
         this.span = document.createElement('span');
         this.element.appendChild(this.span);
         this.span.innerText = new Date().toUTCString();
+
+        var name = 'Michael Crump';
+        var fullName: string = 'Miky';
+        var num = 1;
+        var bigNum: number = 100;
+        //fullName = num;
+
     }
 
     start() {
